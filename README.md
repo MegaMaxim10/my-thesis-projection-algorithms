@@ -2,7 +2,7 @@
 In this repository you will find the Haskell codes of projection algorithms proposed in one of the contributions of my PhD thesis.
 
 ## A Context
-To easily automate their business processes and increase their competitiveness, organisations are increasingly interested in workflow technology. Indeed, in its most widespread approach, the latter reduces the automation of a given business process to its formal specification (modeling) using a ***Workflow Process Specification Language*** (WfPSL).
+To easily automate their business processes and increase their competitiveness, organisations are increasingly interested in workflow technology. Indeed, in its most widespread approach, the latter reduces the automation of a given business process to its formal specification (modelling) using a ***Workflow Process Specification Language*** (WfPSL).
 
 To automate a given administrative process (*these are variable processes of which we know all the cases; that is, the tasks are predictable and the sequence are simple and clearly defined*), we can conceive it as a set of annotated trees called ***target artifacts***, representing possible execution scenarios of the said process. In these artifacts, each node represents a process task and an annotation between two nodes indicates whether the corresponding tasks should be executed in sequence or not. The task execution precedence relationships are therefore given by these different annotations and by the hierarchical structure of the artifact.
 
